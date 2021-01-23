@@ -1,0 +1,174 @@
+/* General */
+body{
+    font-family: 'lato' , sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-weight: bold;
+}
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+section .heading{
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+
+/* Menu*/
+
+.navbar{
+    background: #F08080;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav{
+
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse{
+    text-align: center;
+}
+
+.navbar li a {
+    color: #fff !important;
+}
+
+.navbar li a:hover, .navbar li.active a{
+    color:  #F08080 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle{
+    border-style: none;
+}
+
+.icon-bar {
+    background-color: #fff !important;
+}
+
+/* About */
+
+#about
+{
+    padding-top: 100px;
+    background: #F08080
+}
+
+.profile-picture{
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+
+}
+
+#about .heading h1{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#about .heading h3{
+    color: black;
+}
+
+.button1{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 18px 58px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.button1:hover
+{
+    background: white;
+    color: #d82c2e;
+    text-decoration: none;
+}
+
+/* Education*/
+
+#education{
+    background: #fff;
+    margin-top: 30px;
+}
+#tp{
+    background: #fff;
+    margin-top: 30px;
+    margin-bottom: 130px;
+}
+#education .heading h2
+{
+     color: #d82c2e;
+}
+
+
+.education-block{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #ddd;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.education-block h5{
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.education-block .glyphicon{
+    font-size: 40px;
+
+}
+
+.education-block h3{
+
+    color: #d82c2e;
+}
+
+.education-block h4{
+
+    margin-bottom: 20px;
+}
+
+.education-block p{
+
+    font-weight: bold;
+}
+
+.education-block .red-divider {
+
+    margin-bottom: 20px;
+    background-color: #F08080;
+}
+
+.education-block .red-divider hr{
+    border: 1;
+}
+
+.rapport h2{
+    text-align: center;
+    color: #F08080;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
